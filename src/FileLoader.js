@@ -18,7 +18,7 @@ function setParseProducts(data) {
 
     function formatPromotion(promotion) {
       if (promotion.trim() === null) {
-        return "null";
+        return null;
       }
       return promotion.trim();
     }
